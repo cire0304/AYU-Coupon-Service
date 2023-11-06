@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 
 @Component
 @RequiredArgsConstructor
-public class IssueUserCouponModuleImpl implements IssueUserCouponModule {
+public class DefaultIssueUserCouponModule implements IssueUserCouponModule {
 
     private final CouponRepository couponRepository;
     private final UserCouponRepository userCouponRepository;
